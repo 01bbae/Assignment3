@@ -3,17 +3,21 @@ using namespace std;
 
 class Pet{
   public:
+    //constructor
     Pet(string name,int age,string type, double weight);
+    //accessor methods
     string getName();
     int getAge();
     string getType();
     double getWeight();
+    //mutator methods
     void setName(string name);
     void setAge(int age);
     void setType(string type);
     void setWeight(double weight);
 
   private:
+    //private variables
     string name;
     int age;
     string type;
